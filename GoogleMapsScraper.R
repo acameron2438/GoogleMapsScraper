@@ -3,8 +3,6 @@ library(RCurl, lib="D:/Projects/R/win-library/3.6")
 library(RJSONIO, lib="D:/Projects/R/win-library/3.6")
 library(plyr, lib="D:/Projects/R/win-library/3.6")
 require(stringr, lib="D:/Projects/R/win-library/3.6")
-if(!require("plyr"))
-  install.packages("plyr")
 #----------------------------------------------Create Function-------------------------------------------
 Scraper <- function(location) 
 {
